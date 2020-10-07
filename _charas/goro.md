@@ -5,6 +5,16 @@ occupation: "Carpenter"
 illustrator: "oaks (おーくす)"
 voice_actor: "Yoshihito Oonami (大浪嘉仁)"
 ---
+{% capture BIO_H01 %}
+He transforms into a hero that can show off his best performance as a carpenter.  Even in this form, he's still undoubtedly a drunkard, but he can use his split-toe-shoes shaped parallel weapon to walk on vertically on walls, and using various tools from toolbox-shaped parallel weapon, build high quality walls and shelters at a speed that no normal person could do.
+{% endcapture %}
+
+{% capture BIO_H02 %}
+In his home town, he was raising a family and living a normal life as a carpenter, when one day a giant monster attacked, bringing disaster and seperating him from his family before drifting ashore to Muirauqa IV.  This is when he started drinking daily, and it's also when he began his dream of building a house that could withstand even a monsters attack.  Consequently, when he sees two lovers or two family members get seperated, he loses his composure, even if they're strangers to him.
+{% endcapture %}
+
+{% include hero-infobox.html stockId=10011 BIO_H01=BIO_H01 BIO_H02=BIO_H02 %}
+
 
 {% include hero-infobox.html stockId=10231 %}
 
